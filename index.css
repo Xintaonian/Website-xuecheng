@@ -1,0 +1,252 @@
+/* 版心剧中 */
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* homepage background colour */
+body{
+    background-color: #f3f5f7;
+}
+
+/* header */
+.header{
+    height: 100px;
+    background-color: rgb(3, 3, 3, 0.25);
+}
+.header .wrapper{
+    padding-top: 30px;
+    display: flex;
+}
+
+/* logo */
+.logo a{
+    display: block;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 40px;
+    background-image: url(img/logo-2.png);
+    font-size: 0;
+}
+
+/* Navbar */
+.nav{
+    margin-left: 110px;
+}
+.nav ul{
+    display: flex;
+}
+/* speace between each button */
+.nav li{
+    margin-right: 24px ;
+}
+/* postion of the text of nav button */
+.nav li a{
+    display: block;
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+/* set hover and active at the same time*/
+.nav li .active, 
+.nav li  :hover{
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* Search */
+.search{
+    display: flex;
+    margin-left: 64px;
+    padding-left: 20px;
+    padding-right: 12px;
+    width: 412px;
+    height: 40px;
+    background-color: #f3f5f7;
+    border-radius: 25px;
+}
+.search input{
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+    /* remove border outline when typing */
+    outline: none;
+}
+/* select the text in placeholder  */
+.search input ::placeholder{
+    font-size: 14px;
+    color: #999;
+}
+/* add background img for search bar */
+.search a{
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/search.jpg);
+    background-repeat: no-repeat;
+}
+
+/* user section */
+.user{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* To vertically align an inline-level element's box inside its containing line box */
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.user span{
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* banner */
+.banner{
+    height: 420px;
+    background-color: #254cda;
+}
+.banner .wrapper{
+    display: flex;
+    background-position: center;
+    height: 420px;
+    background-image: url(img/banner.jpg);
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+/* left nav bar in banner section */
+.banner .wrapper .left {
+    padding: 3px 26px;
+    width: 191px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.banner .left a {
+    display: block;
+    height: 46px;
+    background-image: url(img/star3.png);
+    background-repeat: no-repeat;
+    background-position: right center ;
+    line-height: 46px;
+    font-size: 16px;
+    color: white;
+}
+.banner .left a:hover {
+    background-image: url(img/star2.png);
+    color: #00a4ff;
+}
+/* timetable */
+.banner .right {
+    width: 218px;
+    height: 305px;
+    background-color: #209dd5;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.banner .right h3{
+    padding-left: 14px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+.banner .right .content {
+    width: 218px;
+    height: 257px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 14px;
+}
+.banner .right dl{
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.banner .right dt{
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700; 
+}
+.banner .right dd{
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.banner .right dd span{
+    color: #00a4ff;
+    font-weight: 700;
+}
+.banner .right dd strong{
+    color: #666;
+    font-weight: 400;
+}
+
+.banner .right a{
+    display: block;
+    width: 140px;
+    height: 30px;
+    background-color: #209dd5;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fafafa;
+}
+.banner .right a:hover{
+    width: 168px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: 5px 5px black;
+}
+
+/* Recommend section */
+.recommend .wrapper{
+    display: flex;
+    margin-top: 10px;
+    padding: 0 20px;    
+    background-color: white;
+    line-height: 50px;
+    height: 60px;
+    box-shadow: 0px 1px 2px 0px rgba(211, 211, 211, 0.5);
+}
+.recommend .wrapper h4{
+    color: #254cda;
+}
+.recommend .wrapper ul{
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+}
+
+.recommend .wrapper li{
+    height: 14px;
+    line-height: 14px;
+    margin-top: 18px;
+    border-right: 1px solid #747171;
+}
+.recommend .wrapper ul a{
+    padding: 0 24px;
+    font-size: 14px;
+    color: #747171;
+   
+}
+
+.recommend .wrapper :last-child{
+    border-right: none;
+}
+
+.recommend .topic{
+    display: block;
+    /* margin-right: 10px; */
+    color: #254cda;
+    font-weight: 700;
+}
