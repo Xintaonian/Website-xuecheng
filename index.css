@@ -315,3 +315,119 @@ body{
 .course .wrapper .bd .course-card a:hover{
     font-size: 35px;
 }
+/* frontend section */
+.frontend{
+    margin-top: 15px;
+}
+.frontend .wrapper .hd .left {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.frontend .wrapper .hd .right{
+    width: 40px;
+    margin-right: 20px;
+}
+.frontend .wrapper .hd .right a{
+    display: block;
+    font-size: 15px;
+    line-height: 60px;
+    color: #666;
+    background-image: url(img/star3.png);
+    background-repeat: no-repeat;
+    background-position: right center ;
+}
+.frontend .wrapper .hd .right a:hover{
+    background-image: url(img/star2.png);
+    background-repeat: no-repeat;
+    background-position: right center ;
+    color: #254cda;
+}
+
+.frontend .wrapper .hd .mid ul{
+    display: flex;
+}
+.frontend .wrapper .mid li{
+    width: 60px;
+    margin-right: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #666;
+}
+.frontend .wrapper .hd .mid li a:active{
+    color:#00a4ff
+}
+.frontend .wrapper .bd{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.frontend .wrapper .bd .left{
+    width: 200px;
+    height: 500px;
+    margin-right: 35px;
+    background-color: rgb(10, 119, 182);
+} 
+.frontend .wrapper .bd .right .top{
+    width: 905px;
+    height: 150px;
+    background-color: rgb(31, 5, 75);
+    /* margin-left: 20px; */
+}
+.frontend .wrapper .bd .right .down{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.frontend .wrapper .bd .right .down .front-end-course-card {
+    /* margin-left: 20px; */
+    width: 325px;
+    height: 500px;
+}
+.frontend .wrapper .bd .right .down .front-end-course-card a{
+    display: block;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #254cda;
+}
+.footer{
+    margin-top: 60px;
+    padding-top: 60px;
+    height: 280px;
+    background-color: #fff;
+}
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .wrapper .left{
+    width: 440px;
+    /* background-color: pink; */
+}
+.footer .wrapper .left p{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.footer .wrapper .left .download{
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #254cda;
+    line-height: 40px;
+    padding-left: 26px;
+    background-color: #254cda;
+    color: white;
+    border-radius: 15px;
+    box-shadow:  0px 10px 12px 0px rgb(2, 2, 2);
+}
+
+.footer .wrapper .right {
+    display: flex;
+    height: 200px;
+}
+
+.footer .wrapper .right .table1{
+    margin-right: 130px;
+}
